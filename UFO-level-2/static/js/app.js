@@ -21,7 +21,7 @@ var button = d3.select("#filter-btn");
 button.on("click", function() {
     d3.event.preventDefault();
 
-    deleteTbody();
+    //deleteTbody();
     
     var inputElement = d3.select("#datetime");
     var inputValue = inputElement.property("value");
